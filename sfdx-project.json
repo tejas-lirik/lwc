@@ -2,10 +2,24 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true,
+            "package": "TestPackage1",
+            "versionName": "ver 0.2",
+            "versionNumber": "0.2.0.NEXT",
+            "default": true
+        },
+        {
+            "path": "force-app",
+            "default": false,
             "package": "DreamhouseLWC",
             "versionName": "Summer '21",
             "versionNumber": "53.0.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "package": "TestPackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "namespace": "",
@@ -23,6 +37,9 @@
         "DreamhouseLWC@51.0.0-1": "04t3h000004smn8AAA",
         "DreamhouseLWC@53.0.0-1": "04t3h000004VW48AAG",
         "DreamhouseLWC@53.0.0-3": "04t3h000004VWQgAAO",
-        "DreamhouseLWC@53.0.0-5": "04t3h000004VWQqAAO"
+        "DreamhouseLWC@53.0.0-5": "04t3h000004VWQqAAO",
+        "TestPackage": "0Ho5j000000KylbCAC",
+        "TestPackage1": "0Ho5j000000KylgCAC",
+        "TestPackage1@0.2.0-1": "04t5j000000oydeAAA"
     }
 }
