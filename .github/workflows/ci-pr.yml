@@ -112,6 +112,7 @@ jobs:
             # Install JEST module
             - name: 'Install JEST'
               run: sfdx force:lightning:lwc:test:setup
+              
 
             # Run Jest test cases in scratch org
             - name: 'Run Jest tests'
