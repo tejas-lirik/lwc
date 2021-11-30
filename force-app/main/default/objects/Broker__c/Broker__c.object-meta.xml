@@ -53,7 +53,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <label>Broker</label>
     <nameField>
-        <label>Broker Name6</label>
+        <label>Broker Name8</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Brokers</pluralLabel>
